@@ -1,6 +1,8 @@
 package colecoes;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
@@ -8,6 +10,10 @@ import java.util.TreeSet;
 public class ConjuntoComportado {
 
 	public static void main(String[] args) {
+		
+		List<String> lista = new ArrayList<String>();
+		
+		lista.add("Teste");
 		
 		//O resultado não é organizado pela ordem de nomes acrescentados
 		Set<String> listaAprovados = new HashSet<String>();
